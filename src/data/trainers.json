@@ -1,0 +1,20 @@
+[
+    {
+        "name": "pat",
+        "age": 99,
+        "specialism": "IT"
+
+    },
+    {
+        "name": "mat",
+        "age": 33,
+        "specialism": "builder"
+
+    },
+    {
+        "name": "zap",
+        "age": 22,
+        "specialism": "Footballer"
+
+    }
+]
