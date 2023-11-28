@@ -3,6 +3,9 @@ import './App.css';
 import Trainer from "./components/Trainer.jsx";
 import Student from "./components/Student.jsx";
 import House from "./components/House.jsx";
+import data from "./data.json"
+
+console.log("Trainers:",data);
 
 function App() {
   return (
@@ -12,18 +15,13 @@ function App() {
       <Student />
       <Trainer />
       <Student />
-      <Trainer />
-      <Student />
-      <Trainer />
-      <Student />
-      <Trainer />
       <h1>Houses for sale:</h1>
-       <li>
-        <House location="Cardiff" size="120ft2" price="£150,000"/>
-        <House location="Middlesbrough" size="500ft2" price="£300,000"/>
-        <House location="Central London" size="300ft2" price="£1,500,000"/>
-        <House location="Newcastle" size="200ft2" price="£800,000"/>
-       </li>
+       <ul>
+       <li><House location="Cardiff" size="120ft2" price="£150,000"/></li>
+       <li><House location="Middlesbrough" size="500ft2" price="£300,000"/></li>
+       <li><House location="Central London" size="300ft2" price="£1,500,000"/></li>
+       <li><House location="Newcastle" size="200ft2" price="£800,000"/></li>
+       </ul>
     </div>
     );
 }
